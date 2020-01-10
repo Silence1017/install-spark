@@ -2,7 +2,7 @@
 https://blog.csdn.net/Du_wood/article/details/84914759
 原因：未给该用户指定shell
 
-2.·Scala·安装过程中环境变量配置问题
+2.Scala安装过程中环境变量配置问题
 Linux系统配置用户环境变量：
 https://blog.csdn.net/flw8840488/article/details/90513873
 配置scala环境变量代码行：
