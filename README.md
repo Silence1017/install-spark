@@ -11,8 +11,10 @@ https://blog.csdn.net/Du_wood/article/details/84914759
 Linux系统配置用户环境变量：  
 https://blog.csdn.net/flw8840488/article/details/90513873  
 配置`scala`环境变量代码行：  
-`scala environment  
-export SCALA_HOME=/usr/local/scala  
+`scala environment
+
+export SCALA_HOME=/usr/local/scala
+
 export PATH=${SCALA_HOME}/bin:$PATH`  
 对于`scala`来说，单独修改适用于全局用户的`/etc/profile`或`/etc/bash_bashrc`是没用的，只能起到暂时有效的效果。  
 所以我们应该对每个用户的~/.bashrc文件进行修改，才能保证每个用户正常执行`scala -version`命令。  
